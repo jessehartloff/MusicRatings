@@ -48,7 +48,7 @@ public class MusicRatings {
      * @return A Song object with the data from the JSON Value
      */
     public static Song jsonToSong(JsonObject jsonSong){
-
+ 
         return null;
     }
 
@@ -123,7 +123,7 @@ public class MusicRatings {
      * @return The k best songs based on the bayesian average of their ratings starting with
      *         the best song at index 0
      */
-    public static ArrayList<Song> getBestPlayList(int k){
+    public static ArrayList<Song> getBestPlaylist(int k){
         // Earning credit for this question will require self-learning. The concepts needed to complete
         // this method have not been covered in this course, or were only covered briefly.
 

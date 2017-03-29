@@ -2,9 +2,26 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="lib/minimal-json-0.9.4.jar"/>
+	<classpathentry kind="lib" path="lib/minimal-json-0.9.4.jar" sourcepath="lib/minimal-json-0.9.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/MusicRatings/lib/minimal-json-0.9.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="lib/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="lib/org.apache.httpcomponents.httpclient_4.5.3.jar"/>
-	<classpathentry kind="lib" path="lib/org.apache.httpcomponents.httpcore_4.4.6.jar"/>
+	<classpathentry kind="lib" path="lib/fluent-hc-4.5.3.jar" sourcepath="lib/fluent-hc-4.5.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/MusicRatings/lib/fluent-hc-4.5.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/httpclient-4.5.3.jar" sourcepath="lib/httpclient-4.5.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/MusicRatings/lib/httpclient-4.5.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/httpcore-4.4.6.jar" sourcepath="lib/httpcore-4.4.6-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/MusicRatings/lib/httpcore-4.4.6-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
