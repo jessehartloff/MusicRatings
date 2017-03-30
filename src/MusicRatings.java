@@ -118,7 +118,8 @@ public class MusicRatings {
      * contained only 2 songs with ratings [4,4,4] and [5] m would be 4.25.
      *
      * For C use the average number of ratings across all songs. In the example with 2 songs with
-     * ratings [4,4,4] and [5] C would be 2.
+     * ratings [4,4,4] and [5] C would be 2. C is not necessarily an integer so if the 2 songs had 
+     * ratings [4,4] and [5] C would be 1.5.
      *
      * @return The k best songs based on the bayesian average of their ratings starting with
      *         the best song at index 0
